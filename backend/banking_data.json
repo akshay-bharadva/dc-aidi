@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "question": "What is my account balance?",
+      "answer": "Your current account balance is $2,500."
+    },
+    {
+      "question": "How do I transfer money between accounts?",
+      "answer": "To transfer money between accounts, log in to your online banking and go to the 'Transfer' section."
+    },
+    {
+      "question": "Can I open a joint account?",
+      "answer": "Yes, you can open a joint account. Visit the nearest branch with the required documents for both account holders."
+    },
+    {
+      "question": "What is the interest rate on savings accounts?",
+      "answer": "The current interest rate on our savings accounts is 1.5% per annum."
+    },
+    {
+      "question": "How do I apply for a credit card?",
+      "answer": "To apply for a credit card, visit our website and fill out the online application form. You can also visit a branch for assistance."
+    },
+    {
+      "question": "What should I do if my card is lost or stolen?",
+      "answer": "If your card is lost or stolen, contact our customer service immediately at [customer service number] to report it. We will block the card and issue a replacement."
+    },
+    {
+      "question": "What is the daily ATM withdrawal limit?",
+      "answer": "The daily ATM withdrawal limit for your account is $500. However, you can request to change this limit through online banking or by contacting customer service."
+    },
+    {
+      "question": "How can I reset my online banking password?",
+      "answer": "To reset your online banking password, click on the 'Forgot Password' link on the login page. Follow the instructions to reset your password securely."
+    },
+    {
+      "question": "What are the fees for international wire transfers?",
+      "answer": "The fees for international wire transfers vary depending on the destination and the amount. Check our fee schedule on the website or contact customer service for details."
+    },
+    {
+      "question": "How do I close my account?",
+      "answer": "To close your account, visit a branch and fill out an account closure form. Make sure to clear any pending transactions and transfer the remaining balance to another account."
+    },
+    {
+      "question": "What is the process to open a business account?",
+      "answer": "To open a business account, visit a branch with your business registration documents and identification. Our staff will guide you through the process."
+    },
+    {
+      "question": "Are there any fees for using ATMs abroad?",
+      "answer": "Yes, there are fees for using ATMs abroad. Check our fee schedule for international ATM withdrawal charges."
+    },
+    {
+      "question": "How can I set up automatic bill payments?",
+      "answer": "To set up automatic bill payments, log in to your online banking, navigate to the 'Bill Pay' section, and follow the instructions to add your bills and schedule payments."
+    },
+    {
+      "question": "What is the grace period for credit card payments?",
+      "answer": "The grace period for credit card payments is typically 21 days from the statement date. Pay your balance in full within this period to avoid interest charges."
+    },
+    {
+      "question": "Can I get a loan for home renovation?",
+      "answer": "Yes, we offer home renovation loans. Contact our loan department or apply online for more information and eligibility criteria."
+    },
+    {
+      "question": "How can I dispute a transaction on my account?",
+      "answer": "To dispute a transaction, contact our customer service with details of the transaction. We will investigate and resolve the issue as soon as possible."
+    },
+    {
+      "question": "What credit score is needed to qualify for a mortgage?",
+      "answer": "The minimum credit score for a mortgage varies, but generally, a score above 620 is recommended. Contact our mortgage department for specific requirements."
+    },
+    {
+      "question": "How do I update my contact information?",
+      "answer": "To update your contact information, log in to your online banking and navigate to the 'Profile' or 'Settings' section. Update your details and save the changes."
+    },
+    {
+      "question": "What is the process for ordering checks?",
+      "answer": "To order checks, log in to your online banking, go to the 'Account Services' or 'Order Checks' section, and follow the instructions to place your order."
+    },
+    {
+      "question": "Is there a mobile banking app available?",
+      "answer": "Yes, we have a mobile banking app available for download on iOS and Android platforms. Use the app to manage your accounts, transfer money, and more."
+    },
+    {
+      "question": "How can I protect my account from fraud?",
+      "answer": "To protect your account from fraud, regularly monitor your transactions, enable account alerts, use strong passwords, and avoid sharing sensitive information. Report any suspicious activity to us immediately."
+    }
+  ]
+}
