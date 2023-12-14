@@ -45,29 +45,8 @@ const Footer = () => (
 
     <div className="flex flex-col items-center justify-between w-full md:flex-row pt-6 border-t-[1px] border-t-[#3f3e45]">
       <p className="font-poppins font-normal text-center md:text-left text-[18px] leading-[27px] text-white">
-        © 2022 HooBank. All Rights Reserved. <br /> Built by{" "}
-        <a
-          href="https://github.com/xdelmo/bank-modern-app"
-          className="cursor-pointer hover:text-secondary"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Emanuele Del Monte
-        </a>
+        © {new Date().getUTCFullYear()} HooBank. All Rights Reserved.
       </p>
-      <div className="flex flex-row mt-6 md:mt-0">
-        {socialMedia.map((social, index) => (
-          <img
-            src={social.icon}
-            key={social.id}
-            alt={social.id}
-            className={`${
-              index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
-            } w-[21px] h-[21px] object-contain cursor-pointer`}
-            onClick={() => window.open(social.link)}
-          />
-        ))}
-      </div>
     </div>
   </footer>
 );
