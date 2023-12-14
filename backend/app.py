@@ -1,9 +1,11 @@
 import sqlite3
 from flask import Flask, request, jsonify, g
+from flask_cors import CORS
 from datetime import datetime
 from banking_chatbot import BankingChatbot
 
 app = Flask(__name__)
+CORS(app)
 chatbot = BankingChatbot()
 
 # Connect to SQLite database
@@ -56,42 +58,9 @@ def chatbot_endpoint():
     if answer:
         response = {"response": answer}
     else:
-        response = {"response": "I don't know the answer. Can you teach me?"}
+        response = {"response": "I did't get it, could you give me more context of the query about HooBank?"}
     
     return jsonify(response)
 
 if __name__ == '__main__':
     app.run(debug=True)
-    
-    
-    
-    
-
-
-# from flask import Flask, request, jsonify
-# from banking_chatbot import BankingChatbot  # Import the BankingChatbot class from your chatbot module
-
-# app = Flask(__name__)
-# chatbot = BankingChatbot()  # Initialize your chatbot
-
-# @app.route('/chatbot', methods=['POST'])
-# def chatbot_endpoint():
-#     data = request.json
-#     user_input = data.get('user_input', '')
-    
-#     # Get chatbot response
-#     answer = chatbot.get_answer(user_input)
-    
-#     if answer:
-#         response = {"response": answer}
-#     else:
-#         response = {"response": "I am not sure what you are asking about."}
-    
-#     return jsonify(response)
-
-# if __name__ == '__main__':
-#     app.run(debug=True)
-
-
-
-
