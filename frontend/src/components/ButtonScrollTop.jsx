@@ -48,7 +48,7 @@ const ButtonScrollTop = () => {
     <AnimatePresence mode="wait">
       {visible && (
         <motion.button
-          className="py-4 fixed px-6 bg-blue-gradient font-poppins font-bold bottom-[10%] right-10 text-[18px] text-primary outline-none rounded-lg z-50"
+          className="py-2 fixed px-2 bg-blue-gradient font-poppins font-bold bottom-[2%] right-10 text-[18px] text-primary outline-none rounded-lg z-50"
           onClick={scrollToTop}
           variants={buttonVariants}
           initial="hidden"

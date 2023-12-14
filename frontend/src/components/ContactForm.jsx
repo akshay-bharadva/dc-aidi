@@ -79,7 +79,7 @@ export default function ContactForm({ scaleUpVariants }) {
         process.env.REACT_APP_YOUR_SERVICE_ID,
         process.env.REACT_APP_YOUR_TEMPLATE_ID,
         form.current,
-        process.env.REACT_APP_YOUR_PUBLIC_KEY
+        process.env.REACT_APP_YOUR_PUBLIC_KEY,
       )
       .then(
         (result) => {
@@ -92,7 +92,7 @@ export default function ContactForm({ scaleUpVariants }) {
           console.log(error.text);
           SetMessageFeedback(updateFeedback(error.text));
           SetHasBeenSent(true);
-        }
+        },
       );
   };
 

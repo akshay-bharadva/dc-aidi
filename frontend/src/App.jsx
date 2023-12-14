@@ -1,4 +1,6 @@
 import React from "react";
+import Chatbot from "react-chatbot-kit";
+import "react-chatbot-kit/build/main.css";
 import styles from "./style";
 import {
   ButtonScrollTop,
@@ -13,7 +15,11 @@ import {
   // CTA,
   Footer,
   ContactForm,
+  CTA,
 } from "./components/";
+import config from "./chatbot/config";
+import MessageParser from "./chatbot/MessageParser";
+import ActionProvider from "./chatbot/ActionProvider";
 
 const App = () => {
   const slideRightVariants = {
@@ -25,7 +31,7 @@ const App = () => {
       x: "0",
       opacity: 1,
       transition: {
-        duration: 0.5,
+        duration: 0.2,
       },
     },
     viewport: { once: true },
@@ -40,7 +46,7 @@ const App = () => {
       x: "0",
       opacity: 1,
       transition: {
-        duration: 0.5,
+        duration: 0.2,
       },
     },
     viewport: { once: true },
@@ -55,7 +61,7 @@ const App = () => {
       opacity: 1,
       scale: 1,
       transition: {
-        duration: 0.5,
+        duration: 0.2,
       },
     },
     viewport: { once: true },
@@ -87,11 +93,18 @@ const App = () => {
           <CardDeal scaleUpVariants={scaleUpVariants} />
           <Testimonials />
           <Clients />
-          {/* <CTA scaleUpVariants={scaleUpVariants} /> */}
+          <CTA scaleUpVariants={scaleUpVariants} />
           <ContactForm scaleUpVariants={scaleUpVariants} />
           <Footer />
         </div>
       </div>
+          <div className="fixed bottom-20 right-10 z-50">
+            <Chatbot
+              config={config}
+              messageParser={MessageParser}
+              actionProvider={ActionProvider}
+            />
+          </div>
     </div>
   );
 };
