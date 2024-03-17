@@ -30,7 +30,6 @@ pure-eval
 Pygments
 python-dateutil
 pytz
-pywin32
 pyzmq
 scikit-learn
 scipy
