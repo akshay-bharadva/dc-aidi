@@ -1,0 +1,38 @@
+
+{
+  "name": "QueryGenius: Ask Me Anything Extension",
+  "description": "A Chrome Extension that allows you to ask questions and get answers from the web",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "icon16.png"
+  },
+  "action": {
+      "default_popup": "index.html",
+      "default_title": "Ask me Anything!"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab", "tabs", "storage"
+ ],
+ "commands": {
+  "_execute_action": {
+    "suggested_key": {
+      "default": "Ctrl+Q",
+      "mac": "Command+Q"
+    }
+  }
+}
+}
