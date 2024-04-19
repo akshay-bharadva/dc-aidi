@@ -31,7 +31,8 @@ class Agent:
             retriever = vector.as_retriever()
             retriever_tool = create_retriever_tool(retriever, "websearch_retriever", "Search the web for answers")
             self.llm = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
-            self.tools = [retriever_tool, *load_tools(["wikipedia", "arxiv", "ddg-search"], llm=self.llm)]
+            self.tools = [retriever_tool]
+            # self.tools = [retriever_tool, *load_tools(["wikipedia", "arxiv", "ddg-search"], llm=self.llm)]
             prompt = ChatPromptTemplate.from_messages(
                 [("system", 
                 """
@@ -42,7 +43,9 @@ class Agent:
                 Or else take a look into web. While answering provide the source of the information.
                 Do not fake the information. Provide the correct information.
 
-                Try to proovide answer from the websearch_retriever tool before using other tools. If the answer is not found, then use other tools.
+                Try to proovide answer from the websearch_retriever tool before using other tools. 
+                If you didn't find the answer, then find the meta data from the websearch_retriever tool.
+                And then try to search those meta data in other tools. And then provide the answer.
                 """
                 ),
                 ("placeholder", "{chat_history}"),

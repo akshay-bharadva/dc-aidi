@@ -42,3 +42,10 @@ QueryGenius is a Chrome extension that allows you to ask anything about the acti
 ## Usage
 
 Once the Chrome extension is loaded and the AI server is running, simply activate the extension on any webpage and start asking questions!
+
+## Snapshots
+
+![loading chrome extension](image.png)
+![initial screen of extension](image-1.png)
+![initial screen of chatbot](image-2.png)
+![question answer with chatbot](image-3.png)
