@@ -24,6 +24,14 @@ const EntryPage: React.FC = () => {
       <header></header>
       <body className="ps-3 pt-3">
         <div className="mt-3 mb-2">
+          <div className="mt-3 me-3" style={{ fontSize: 18 }}>
+            <h3>Ask me Anything</h3>
+            <p className="text-decoration-none">
+              Welcome to the QueryGenius!
+              <br/>
+              Please enter your name to begin.
+            </p>
+          </div>
           <TextField
             id="name_input"
             onChange={(e) => setName(e.target.value)}
