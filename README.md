@@ -45,7 +45,7 @@ Once the Chrome extension is loaded and the AI server is running, simply activat
 
 ## Snapshots
 
-![loading chrome extension](image.png)
-![initial screen of extension](image-1.png)
-![initial screen of chatbot](image-2.png)
-![question answer with chatbot](image-3.png)
+![loading chrome extension](media/image.png)
+![initial screen of extension](media/image-1.png)
+![initial screen of chatbot](media/image-2.png)
+![question answer with chatbot](media/image-3.png)
