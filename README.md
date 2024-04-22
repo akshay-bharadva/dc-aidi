@@ -49,3 +49,4 @@ Once the Chrome extension is loaded and the AI server is running, simply activat
 ![initial screen of extension](media/image-1.png)
 ![initial screen of chatbot](media/image-2.png)
 ![question answer with chatbot](media/image-3.png)
+![architecture](media/image-4.png)
