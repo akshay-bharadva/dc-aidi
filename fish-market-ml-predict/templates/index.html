@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fish Classification</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Fish Classification</h1>
+    <form id="prediction-form" method="post" action="/predict">
+        <label for="weight">Weight:</label>
+        <input type="text" id="weight" name="weight" required><br>
+        <label for="length1">Length1:</label>
+        <input type="text" id="length1" name="length1" required><br>
+        <label for="length2">Length2:</label>
+        <input type="text" id="length2" name="length2" required><br>
+        <label for="length3">Length3:</label>
+        <input type="text" id="length3" name="length3" required><br>
+        <label for="height">Height:</label>
+        <input type="text" id="height" name="height" required><br>
+        <label for="height">Width:</label>
+        <input type="text" id="width" name="width" required><br>
+        <button type="submit">Predict</button>
+    </form>
+    <div id="prediction-result"></div>
+</div>
+</body>
+</html>
