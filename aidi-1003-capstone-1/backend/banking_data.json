@@ -1,0 +1,160 @@
+{
+  "questions": [
+    {
+      "question": "How do I open a bank account?",
+      "answer": "To open a bank account, you can visit your nearest branch and provide the necessary identification and documentation."
+    },
+    {
+      "question": "What types of accounts does your bank offer?",
+      "answer": "We offer various types of accounts, including savings accounts, checking accounts, certificates of deposit (CDs), and money market accounts."
+    },
+    {
+      "question": "How can I check my account balance?",
+      "answer": "You can check your account balance by logging into your online banking account, using our mobile banking app, or by calling our customer service hotline."
+    },
+    {
+      "question": "What is the interest rate on your savings accounts?",
+      "answer": "Our current interest rates on savings accounts are 5% for regular savings accounts and 10.5% for high-yield savings accounts."
+    },
+    {
+      "question": "Can I apply for a loan online?",
+      "answer": "Yes, you can apply for a loan online through our website. Simply fill out the loan application form, and our team will review your request."
+    },
+    {
+      "question": "What is the maximum withdrawal limit from an ATM?",
+      "answer": "The maximum withdrawal limit from our ATMs is $3000  per day. However, please note that certain accounts may have different limits."
+    },
+    {
+      "question": "How can I set up direct deposit for my paycheck?",
+      "answer": "To set up direct deposit for your paycheck, you will need to provide your employer with your bank account number and routing number. They will handle the rest."
+    },
+    {
+      "question": "What is the process for transferring funds between my accounts?",
+      "answer": "You can transfer funds between your accounts through online banking, mobile banking, or by visiting a branch. Simply select the accounts involved and the amount you wish to transfer."
+    },
+    {
+      "question": "How can I order new checks for my checking account?",
+      "answer": "You can order new checks for your checking account by logging into your online banking account and navigating to the \"Order Checks\" section, or by contacting our customer service."
+    },
+    {
+      "question": "Can I make international wire transfers from my account?",
+      "answer": "Yes, you can make international wire transfers from your account. However, additional fees and documentation may be required. Please contact our customer service for more information."
+    },
+    {
+      "question": "What is the process for reporting a lost or stolen debit card?",
+      "answer": "If your debit card is lost or stolen, please contact our customer service immediately. They will assist you in reporting the incident and blocking your card to prevent unauthorized transactions ."
+    },
+    {
+      "question": "How long does it take for a check to clear?",
+      "answer": "The time it takes for a check to clear can vary. Generally, it can take 1-5 business days for a check to fully clear and the funds to become available in your account."
+    },
+    {
+      "question": "Can I set up automatic bill payments from my account?",
+      "answer": "Yes, you can set up automatic bill payments from your account. You can do this through online banking or by contacting our customer service to provide the necessary details."
+    },
+    {
+      "question": "What should I do if I forgot my online banking password?",
+      "answer": "If you forgot your online banking password, you can click on the \"Forgot Password\" link on the login page. Follow the instructions to reset your password securely."
+    },
+    {
+      "question": "How can I dispute a transaction on my account?",
+      "answer": "If you need to dispute a transaction on your account, please contact our customer service. They will guide you through the process and help resolve the issue."
+    },
+    {
+      "question": "Can I access my account statements online?",
+      "answer": "Yes, you can access your account statements online through your online banking account. You can view, download, and print your statements for your records."
+    },
+    {
+      "question": "How can I update my contact information?",
+      "answer": "You can update your contact information by logging into your online banking account and navigating to the \"Profile\" or \"Settings\" section. Alternatively, you can visit a branch or contact our customer service."
+    },
+    {
+      "question": "What are the fees associated with using an ATM that is not from your bank?",
+      "answer": "The fees for using an ATM not affiliated with our bank may vary. You may be charged a convenience fee by the ATM owner, as well as a fee from our bank. Please check our fee schedule for more information."
+    },
+    {
+      "question": "Can I apply for a credit card online?",
+      "answer": "Yes, you can apply for a credit card online through our website. Simply fill out the credit card application form, and our team will review your request."
+    },
+    {
+      "question": "How can I set up mobile banking on my smartphone?",
+      "answer": "To set up mobile banking on your smartphone, you will need to download our mobile banking app from the app store. Follow the instructions to register your account and set up mobile banking."
+    },
+    {
+      "question": "What is the process for closing a bank account?",
+      "answer": "To close a bank account, you will need to visit a branch and speak with abank representative. They will guide you through the necessary steps and ensure that all outstanding transactions and balances are resolved."
+    },
+    {
+      "question": "Can I make deposits through mobile banking?",
+      "answer": "Yes, you can make deposits through mobile banking using the mobile check deposit feature. Simply take a photo of the front and back of the check, fill in the required details, and submit it through the app."
+    },
+    {
+      "question": "What is the daily limit for mobile check deposits?",
+      "answer": "The daily limit for mobile check deposits is typically $5000.However, this limit may vary depending on your account type and relationship with the bank.Please refer to our terms and conditions or contact customer service for specific details."
+    },
+    {
+      "question": "How can I set up account alerts?",
+      "answer": "You can set up account alerts through your online banking account or mobile banking app. Navigate to the \"Alerts\" section and choose the types of alerts you want to receive, such as balance notifications, transaction alerts, or payment reminders."
+    },
+    {
+      "question": "What is the process for ordering a replacement debit card?",
+      "answer": "If you need to order a replacement debit card, please contact our customer service. They will assist you in canceling your existing card and ordering a new one. Alternatively, you may also be able to request a replacement card through your online banking account."
+    },
+    {
+      "question": "Can I apply for a mortgage loan online?",
+      "answer": "Yes, you can apply for a mortgage loan online through our website. We provide an online application form where you can enter your information and submit the necessary documents for review."
+    },
+    {
+      "question": "How can I set up a recurring transfer between my accounts?",
+      "answer": "You can set up a recurring transfer between your accounts through your online banking account or by contacting our customer service. Specify the transfer frequency, amounts, and the accounts involved, and the transfers will be automatically processed according to your preferences."
+    },
+    {
+      "question": "What is the process for disputing a fraudulent transaction on my credit card?",
+      "answer": "If you suspect a fraudulent transaction on your credit card, please contact our customer service immediately. They will guide you through the process of disputing the transaction, blocking your card if necessary, and initiating an investigation."
+    },
+    {
+      "question": "Can I apply for a business loan through your bank?",
+      "answer": "Yes, we offer business loans. You can apply for a business loan by visiting our branch or contacting our business banking department. They will provide you with the necessary information and guide you through the application process."
+    },
+    {
+      "question": "How can I change my online banking username?",
+      "answer": "To change your online banking username, please log into your account and navigate to the \"Profile\" or \"Settings\" section. Look for the option to update your username and follow the instructions provided."
+    },
+    {
+      "question": "What is the process for requesting a credit limit increase on my credit card?",
+      "answer": "To request a credit limit increase on your credit card, please contact our customer service. They will guide you through the process, which may involve submitting updated financial information for review."
+    },
+    {
+      "question": "Can I set up automatic savings transfers from my checking to savings account?",
+      "answer": "Yes, you can set up automatic savings transfers from your checking to savings account through your online banking account or by contacting our customer service. Specify the transfer frequency and amounts, and the transfers will be processed automatically."
+    },
+    {
+      "question": "How can I enroll in paperless statements?",
+      "answer": "To enroll in paperless statements, log into your online banking account and navigate to the \"Statements\" or \"Preferences\" section. Look for the option to switch to paperless statements and follow the instructions provided."
+    },
+    {
+      "question": "What is the process for ordering a cashier's check?",
+      "answer": "To order a cashier's check, visit our branch and speak with a bank representative. Provide them with the necessary details, such as the recipient's name and the amount, and they will issue the cashier's check for you."
+    },
+    {
+      "question": "Can I set up account alerts to notify me of large transactions?",
+      "answer": "Yes, you can set up account alerts to notify you of large transactions. Configure the alert settings through your online banking account or mobile banking app to receive notifications when transactions above a specified threshold occur."
+    },
+    {
+      "question": "How can I change my mailing address for account statements?",
+      "answer": "To change your mailing address for account statements, log into your online banking account and navigate to the \"Profile\" or \"Settings\" section. Look for the option to update your address and follow the instructions provided."
+    },
+    {
+      "question": "What is the process for requesting a wire transfer?",
+      "answer": "To request a wire transfer, please visit a branch or contact our customer service. You will need to provide the recipient's account details, including the bank name, account number, and routing number, along with any additional information required for international transfers."
+    },
+    {
+      "question": "Can I set up customized spending categories for my transactions?",
+      "answer": "Yes, you can set up customized spending categories for your transactions through your online banking account"
+    },
+    {
+      "question": "What is the customer care number?",
+      "answer": "you can reach out advisors on 1-800-322-7777"
+    }
+  ]
+}
